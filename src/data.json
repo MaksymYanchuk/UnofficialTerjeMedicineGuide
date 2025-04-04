@@ -1,0 +1,532 @@
+{
+  "meds": [
+    {
+      "type": "Pills",
+      "name": "Charcoal",
+      "foodPoisoningLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0.1
+    },
+    {
+      "type": "Pills",
+      "name": "Chelating",
+      "foodPoisoningLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.6
+    },
+    {
+      "type": "Pills",
+      "name": "Painkiller",
+      "painkillerLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0.2
+    },
+    {
+      "type": "Pills",
+      "name": "Tetracycline",
+      "antibioticLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0.45
+    },
+    {
+      "type": "Pills",
+      "name": "Magnesium Sulfate",
+      "bloodRegenLvl": 1,
+      "durationTimeSec": 120,
+      "overdose": 0.3
+    },
+    {
+      "type": "Pills",
+      "name": "Adepress",
+      "antidepressantLvl": 1,
+      "durationTimeSec": 150,
+      "overdose": 0.2
+    },
+    {
+      "type": "Pills",
+      "name": "B190",
+      "radiationLvl": 1,
+      "durationTimeSec": 140,
+      "overdose": 0.3
+    },
+    {
+      "type": "Pills",
+      "name": "Analgin",
+      "painkillerLvl": 1,
+      "durationTimeSec": 500,
+      "overdose": 0.15
+    },
+    {
+      "type": "Pills",
+      "name": "Nimesulid",
+      "painkillerLvl": 1,
+      "durationTimeSec": 600,
+      "overdose": 0.25
+    },
+    {
+      "type": "Pills",
+      "name": "Paracetamol",
+      "painkillerLvl": 1,
+      "antibioticLvl": 1,
+      "durationTimeSec": 200,
+      "overdose": 0.45
+    },
+    {
+      "type": "Pills",
+      "name": "Ibuprofen",
+      "painkillerLvl": 1,
+      "antibioticLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.35
+    },
+    {
+      "type": "Pills",
+      "name": "Nurofen",
+      "painkillerLvl": 1,
+      "antibioticLvl": 2,
+      "durationTimeSec": 350,
+      "overdose": 0.52
+    },
+    {
+      "type": "Pills",
+      "name": "Amoxiclav",
+      "antibioticLvl": 2,
+      "durationTimeSec": 1200,
+      "overdose": 0.75
+    },
+    {
+      "type": "Pills",
+      "name": "Piperacylin",
+      "antibioticLvl": 2,
+      "durationTimeSec": 1100,
+      "overdose": 0.45
+    },
+    {
+      "type": "Pills",
+      "name": "Amibaktam",
+      "antibioticLvl": 1,
+      "durationTimeSec": 60,
+      "overdose": 0.05
+    },
+    {
+      "type": "Pills",
+      "name": "Polisorb",
+      "foodPoisoningLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0.05
+    },
+    {
+      "type": "Pills",
+      "name": "Mesalazin",
+      "foodPoisoningLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.35
+    },
+    {
+      "type": "Pills",
+      "name": "Ftalazol",
+      "foodPoisoningLvl": 1,
+      "durationTimeSec": 1200,
+      "overdose": 0.25
+    },
+    {
+      "type": "Pills",
+      "name": "Noopept",
+      "painkillerLvl": 1,
+      "concussionLvl": 2,
+      "durationTimeSec": 380,
+      "overdose": 0.35
+    },
+    {
+      "type": "Pills",
+      "name": "Vikasol",
+      "bloodHemostaticLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0.15
+    },
+    {
+      "type": "Pills",
+      "name": "Irovit",
+      "bloodRegenLvl": 1,
+      "durationTimeSec": 120,
+      "overdose": 0.3
+    },
+    {
+      "type": "Pills",
+      "name": "Potassium iodide",
+      "radiationLvl": 1,
+      "durationTimeSec": 60,
+      "overdose": 0.2
+    },
+    {
+      "type": "Pills",
+      "name": "Hexacyanoferrate",
+      "radiationLvl": 1,
+      "durationTimeSec": 120,
+      "overdose": 0.3
+    },
+    {
+      "type": "Pills",
+      "name": "Mexamine",
+      "radiationLvl": 2,
+      "durationTimeSec": 25,
+      "overdose": 0.75
+    },
+    {
+      "type": "Pills",
+      "name": "Agteminol",
+      "antidepressantLvl": 1,
+      "durationTimeSec": 120,
+      "overdose": 0.2
+    },
+    {
+      "type": "Pills",
+      "name": "Venlafaxine",
+      "antidepressantLvl": 1,
+      "durationTimeSec": 250,
+      "overdose": 0.3
+    },
+    {
+      "type": "Pills",
+      "name": "Rombiopental",
+      "biohazardLvl": 1,
+      "durationTimeSec": 30,
+      "overdose": 0.15
+    },
+    {
+      "type": "Ampouls",
+      "name": "Alcohol",
+      "toxicantLvl": 1,
+      "durationTimeSec": 0,
+      "overdose": 4
+    },
+    {
+      "type": "Ampouls",
+      "name": "Amoxivan",
+      "antibioticLvl": 2,
+      "durationTimeSec": 900,
+      "overdose": 0.3
+    },
+    {
+      "type": "Ampouls",
+      "name": "Novacaine",
+      "painkillerLvl": 2,
+      "durationTimeSec": 1200,
+      "overdose": 0.4
+    },
+    {
+      "type": "Ampouls",
+      "name": "Metoclopramid",
+      "foodPoisoningLvl": 2,
+      "durationTimeSec": 1200,
+      "overdose": 0.4
+    },
+    {
+      "type": "Ampouls",
+      "name": "Neirox",
+      "concussionLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.6
+    },
+    {
+      "type": "Ampouls",
+      "name": "Erythropoietin",
+      "bloodRegenLvl": 1,
+      "durationTimeSec": 600,
+      "overdose": 0.4
+    },
+    {
+      "type": "Ampouls",
+      "name": "Adrenalin",
+      "adrenalineLvl": 1,
+      "durationTimeSec": 220,
+      "overdose": 0.3
+    },
+    {
+      "type": "Ampouls",
+      "name": "Pentacin",
+      "radiationLvl": 2,
+      "durationTimeSec": 400,
+      "overdose": 0.5
+    },
+    {
+      "type": "Ampouls",
+      "name": "Metralindole",
+      "antidepressantLvl": 2,
+      "durationTimeSec": 300,
+      "overdose": 0.1
+    },
+    {
+      "type": "Ampouls",
+      "name": "Vaxicam",
+      "zVirusLvl": "Vaccine",
+      "durationTimeSec": 14400,
+      "overdose": 0.8
+    },
+    {
+      "type": "Ampouls",
+      "name": "Zerivax",
+      "zVirusLvl": "Vaccine",
+      "durationTimeSec": 7200,
+      "overdose": 1.5
+    },
+    {
+      "type": "Ampouls",
+      "name": "Rabivax",
+      "rabiesLvl": "Vaccine",
+      "durationTimeSec": 14400,
+      "overdose": 1.3
+    },
+    {
+      "type": "Ampouls",
+      "name": "Rabinoline",
+      "rabiesLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.8
+    },
+    {
+      "type": "Ampouls",
+      "name": "Neirocetal",
+      "biohazardLvl": 2,
+      "durationTimeSec": 500,
+      "overdose": 1.25
+    },
+    {
+      "type": "Ampouls",
+      "name": "Ketarol",
+      "painkillerLvl": 1,
+      "antibioticLvl": 2,
+      "durationTimeSec": 1200,
+      "overdose": 0.5
+    },
+    {
+      "type": "Ampouls",
+      "name": "Flemoclav",
+      "antibioticLvl": 3,
+      "sepsisLvl": 3,
+      "durationTimeSec": 1200,
+      "overdose": 0.8
+    },
+    {
+      "type": "Ampouls",
+      "name": "Imipenem",
+      "antibioticLvl": 3,
+      "sepsisLvl": 3,
+      "durationTimeSec": 900,
+      "overdose": 0.7
+    },
+    {
+      "type": "Ampouls",
+      "name": "Morphine",
+      "painkillerLvl": 3,
+      "durationTimeSec": 850,
+      "overdose": 0.52
+    },
+    {
+      "type": "Ampouls",
+      "name": "Gexobarbital",
+      "painkillerLvl": 3,
+      "durationTimeSec": 900,
+      "overdose": 0.65
+    },
+    {
+      "type": "Ampouls",
+      "name": "Ketamin",
+      "painkillerLvl": 3,
+      "durationTimeSec": 600,
+      "overdose": 0.45
+    },
+    {
+      "type": "Ampouls",
+      "name": "Hepral",
+      "foodPoisoningLvl": 3,
+      "durationTimeSec": 600,
+      "overdose": 0.6
+    },
+    {
+      "type": "Ampouls",
+      "name": "Carboxyme",
+      "radiationLvl": 2,
+      "durationTimeSec": 600,
+      "overdose": 0.6
+    },
+    {
+      "type": "Ampouls",
+      "name": "Actaparoxetine",
+      "antidepressantLvl": 2,
+      "durationTimeSec": 400,
+      "overdose": 0.4
+    },
+    {
+      "type": "Ampouls",
+      "name": "Amitriptyline",
+      "antidepressantLvl": 3,
+      "durationTimeSec": 600,
+      "overdose": 0.5
+    },
+    {
+      "type": "Ampouls",
+      "name": "Rifampicyne",
+      "rabiesLvl": 3,
+      "durationTimeSec": 300,
+      "overdose": 1.35
+    },
+    {
+      "type": "Ampouls",
+      "name": "Zivirol",
+      "zVirusLvl": 1,
+      "durationTimeSec": 1000,
+      "overdose": 2.35,
+      "addHealth": -25,
+      "addBlood": -15,
+      "addShock": -100
+    },
+    {
+      "type": "Injectors",
+      "name": "Zivirol Injector",
+      "zVirusLvl": 1,
+      "durationTimeSec": 1200,
+      "overdose": 2.5,
+      "addHealth": -20,
+      "addBlood": -10,
+      "addShock": -100
+    },
+    {
+      "type": "Injectors",
+      "name": "Amoxiclav Injector",
+      "antibioticLvl": 3,
+      "sepsisLvl": 3,
+      "durationTimeSec": 1800,
+      "overdose": 0.6,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Neirox Injector",
+      "concussionLvl": 2,
+      "durationTimeSec": 500,
+      "overdose": 0.3,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Erythropoietin Injector",
+      "bloodRegenLvl": 1,
+      "durationTimeSec": 900,
+      "overdose": 0.4,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Novichek",
+      "toxicantLvl": 1,
+      "durationTimeSec": 0,
+      "overdose": 0,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": -100
+    },
+    {
+      "type": "Injectors",
+      "name": "Promidol",
+      "painkillerLvl": 3,
+      "durationTimeSec": 600,
+      "overdose": 0.45,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Topoizomeraza",
+      "antibioticLvl": 3,
+      "sepsisLvl": 3,
+      "durationTimeSec": 1500,
+      "overdose": 0.65,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Erytromixelin",
+      "bloodRegenLvl": 2,
+      "bloodHemostaticLvl": 3,
+      "durationTimeSec": 450,
+      "overdose": 0.32,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Stomaproxidal",
+      "foodPoisoningLvl": 3,
+      "durationTimeSec": 900,
+      "overdose": 0.68,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Rabinucoline",
+      "rabiesLvl": 3,
+      "durationTimeSec": 900,
+      "overdose": 1.46,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Amfitalicyne",
+      "antidepressantLvl": 3,
+      "durationTimeSec": 520,
+      "overdose": 0.6,
+      "addBlood": null,
+      "addHealth": null,
+      "addShock": null
+    },
+    {
+      "type": "Injectors",
+      "name": "Reanimatal",
+      "painkillerLvl": 1,
+      "durationTimeSec": 240,
+      "overdose": 1.85,
+      "addBlood": 25,
+      "addHealth": 15,
+      "addShock": -50
+    }
+    ,
+    {
+      "type": "Salves",
+      "name": "Finalgon",
+      "hematomasLvl": 1,
+      "durationTimeSec": 300,
+      "overdose": 0
+    }
+    ,
+    {
+      "type": "Salves",
+      "name": "Capsicum",
+      "hematomasLvl": 1,
+      "durationTimeSec": 400,
+      "overdose": 0
+    }
+    ,
+    {
+      "type": "Salves",
+      "name": "Viprosal",
+      "hematomasLvl": 1,
+      "durationTimeSec": 600,
+      "overdose": 0
+    }
+  ]
+}
