@@ -23,7 +23,7 @@ const StyledInput = styled.input`
   font-size: 18px;
   padding-left: 35px;
   box-sizing: border-box;
-  background-image: url("/public/icons/search-svgrepo-com.svg");
+  background-image: url("/icons/search.svg");
   background-repeat: no-repeat;
   background-position: 8px center;
   background-size: 20px 20px;

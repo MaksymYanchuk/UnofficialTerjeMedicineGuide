@@ -14,21 +14,21 @@ enum MedicineTypes {
 }
 
 const icons = {
-  adrenalineLvl: "/src//icons/adrenaline.svg",
-  biohazardLvl:"/src//icons/biohazard.png",
-  antibioticLvl:"/src//icons/influenza.png",
-  antidepressantLvl:"/src//icons/mental.png",
-  foodPoisoningLvl:"/src//icons/poisoning.png",
-  radiationLvl:"/src//icons/radiation.png",
-  bloodRegenLvl:"/src//icons/blood-regeneration.png",
-  concussionLvl:"/src//icons/concussion.png",
-  painkillerLvl:"/src//icons/pain.png",
-  toxicantLvl:"/src//icons/toxicant.svg",
-  zVirusLvl:"/src//icons/Z-virus.png",
-  sepsisLvl:"/src//icons/sepsis.png",
-  hematomasLvl:"/src//icons/hematoma.png",
-  rabiesLvl: "/src//icons/rabies.png",
-  bloodHemostaticLvl: "/src//icons/hemostatic.png"
+  adrenalineLvl: "/icons/adrenaline.svg",
+  biohazardLvl:"/icons/biohazard.png",
+  antibioticLvl:"/icons/influenza.png",
+  antidepressantLvl:"/icons/mental.png",
+  foodPoisoningLvl:"/icons/poisoning.png",
+  radiationLvl:"/icons/radiation.png",
+  bloodRegenLvl:"/icons/blood-regeneration.png",
+  concussionLvl:"/icons/concussion.png",
+  painkillerLvl:"/icons/pain.png",
+  toxicantLvl:"/icons/toxicant.svg",
+  zVirusLvl:"/icons/Z-virus.png",
+  sepsisLvl:"/icons/sepsis.png",
+  hematomasLvl:"/icons/hematoma.png",
+  rabiesLvl: "/icons/rabies.png",
+  bloodHemostaticLvl: "/icons/hemostatic.png"
 } 
 
 const TableList = ({ data }: { data: GroupedMeds }) => {

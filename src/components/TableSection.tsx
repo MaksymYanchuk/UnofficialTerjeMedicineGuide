@@ -4,8 +4,8 @@ import TableRow from "./TableRow";
 import { MedicineItem } from "../App";
 import { MedicineLevels } from "../App";
 
-import SortAsc from "/src/icons/sort-up.svg";
-import SortDesc from "/src/icons/sort-down.svg";
+import SortAsc from "/icons/sort-up.svg";
+import SortDesc from "/icons/sort-down.svg";
 
 interface Table {
   category: string;
