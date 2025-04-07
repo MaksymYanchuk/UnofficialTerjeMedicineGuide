@@ -14,21 +14,21 @@ enum MedicineTypes {
 }
 
 const icons = {
-  adrenalineLvl: "/icons/adrenaline.svg",
-  biohazardLvl:"/icons/biohazard.png",
-  antibioticLvl:"/icons/influenza.png",
-  antidepressantLvl:"/icons/mental.png",
-  foodPoisoningLvl:"/icons/poisoning.png",
-  radiationLvl:"/icons/radiation.png",
-  bloodRegenLvl:"/icons/blood-regeneration.png",
-  concussionLvl:"/icons/concussion.png",
-  painkillerLvl:"/icons/pain.png",
-  toxicantLvl:"/icons/toxicant.svg",
-  zVirusLvl:"/icons/Z-virus.png",
-  sepsisLvl:"/icons/sepsis.png",
-  hematomasLvl:"/icons/hematoma.png",
-  rabiesLvl: "/icons/rabies.png",
-  bloodHemostaticLvl: "/icons/hemostatic.png"
+  adrenalineLvl: "./icons/adrenaline.svg",
+  biohazardLvl:"./icons/biohazard.png",
+  antibioticLvl:"./icons/influenza.png",
+  antidepressantLvl:"./icons/mental.png",
+  foodPoisoningLvl:"./icons/poisoning.png",
+  radiationLvl:"./icons/radiation.png",
+  bloodRegenLvl:"./icons/blood-regeneration.png",
+  concussionLvl:"./icons/concussion.png",
+  painkillerLvl:"./icons/pain.png",
+  toxicantLvl:"./icons/toxicant.svg",
+  zVirusLvl:"./icons/Z-virus.png",
+  sepsisLvl:"./icons/sepsis.png",
+  hematomasLvl:"./icons/hematoma.png",
+  rabiesLvl: "./icons/rabies.png",
+  bloodHemostaticLvl: "./icons/hemostatic.png"
 } 
 
 const TableList = ({ data }: { data: GroupedMeds }) => {
@@ -40,7 +40,7 @@ const TableList = ({ data }: { data: GroupedMeds }) => {
 
   return (
     <Box>
-      <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" sx={{ width: "100%", padding: "10px" }}>
+      <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" sx={{ width: "100%" }}>
         {Object.entries(data)
           .sort()
           .map(([category], index) => {
