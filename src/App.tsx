@@ -1,38 +1,24 @@
-import data from "./data.json";
+import rawData from "./data.json";
 import TableList from "./components/TableList";
 import SearchField from "./components/SearchField";
 import "./App.css";
 
-type MedicineLvl = number | string;
-
-export interface MedicineLevels {
-  adrenalineLvl?: MedicineLvl;
-  antibiohazardLvl?: MedicineLvl;
-  antibioticLvl?: MedicineLvl;
-  antidepressantLvl?: MedicineLvl;
-  antipoisonLvl?: MedicineLvl;
-  radiationLvl?: MedicineLvl;
-  bloodRegenLvl?: MedicineLvl;
-  concussionLvl?: MedicineLvl;
-  painkillerLvl?: MedicineLvl;
-  toxicantLvl?: MedicineLvl;
-  zVirusLvl?: MedicineLvl;
-  sepsisLvl?: MedicineLvl;
-  hematomasLvl?: MedicineLvl;
-  rabiesLvl?: MedicineLvl;
-  bloodHemostaticLvl?: MedicineLvl;
-}
+export type MedicineLevels = Record<string, number | string | undefined>;
 
 export interface MedicineItem extends MedicineLevels {
-  type?: string;
-  lvl?: MedicineLvl;
-  category?: string | string[];
+  type: string;
   name: string;
   durationTimeSec: number;
   overdose: number;
 }
 
 export type GroupedMeds = Record<string, MedicineItem[]>;
+
+interface Data {
+  meds: MedicineItem[];
+}
+
+const data: Data = rawData;
 
 const groupedMedsByCategory: GroupedMeds = data.meds.reduce((acc, drug: MedicineItem) => {
   Object.keys(drug).forEach((key) => {

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { useState, useRef, useEffect, ChangeEvent } from "react";
 import debounce from "lodash.debounce";
-import { MedicineItem } from "../App";
-import type { MedicineLevels } from "../App";
+import { MedicineItem, MedicineLevels } from "../App";
 
 const StyledForm = styled.form`
   align-self: flex-start;

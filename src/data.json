@@ -376,20 +376,14 @@
       "name": "Zivirol",
       "zVirusLvl": 1,
       "durationTimeSec": 1000,
-      "overdose": 2.35,
-      "addHealth": -25,
-      "addBlood": -15,
-      "addShock": -100
+      "overdose": 2.35
     },
     {
       "type": "Injectors",
       "name": "Zivirol Injector",
       "zVirusLvl": 1,
       "durationTimeSec": 1200,
-      "overdose": 2.5,
-      "addHealth": -20,
-      "addBlood": -10,
-      "addShock": -100
+      "overdose": 2.5
     },
     {
       "type": "Injectors",
@@ -397,50 +391,35 @@
       "antibioticLvl": 3,
       "sepsisLvl": 3,
       "durationTimeSec": 1800,
-      "overdose": 0.6,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.6
     },
     {
       "type": "Injectors",
       "name": "Neirox Injector",
       "concussionLvl": 2,
       "durationTimeSec": 500,
-      "overdose": 0.3,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.3
     },
     {
       "type": "Injectors",
       "name": "Erythropoietin Injector",
       "bloodRegenLvl": 1,
       "durationTimeSec": 900,
-      "overdose": 0.4,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.4
     },
     {
       "type": "Injectors",
       "name": "Novichek",
       "toxicantLvl": 1,
       "durationTimeSec": 0,
-      "overdose": 0,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": -100
+      "overdose": 0
     },
     {
       "type": "Injectors",
       "name": "Promidol",
       "painkillerLvl": 3,
       "durationTimeSec": 600,
-      "overdose": 0.45,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.45
     },
     {
       "type": "Injectors",
@@ -448,10 +427,7 @@
       "antibioticLvl": 3,
       "sepsisLvl": 3,
       "durationTimeSec": 1500,
-      "overdose": 0.65,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.65
     },
     {
       "type": "Injectors",
@@ -459,50 +435,35 @@
       "bloodRegenLvl": 2,
       "bloodHemostaticLvl": 3,
       "durationTimeSec": 450,
-      "overdose": 0.32,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.32
     },
     {
       "type": "Injectors",
       "name": "Stomaproxidal",
       "foodPoisoningLvl": 3,
       "durationTimeSec": 900,
-      "overdose": 0.68,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.68
     },
     {
       "type": "Injectors",
       "name": "Rabinucoline",
       "rabiesLvl": 3,
       "durationTimeSec": 900,
-      "overdose": 1.46,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 1.46
     },
     {
       "type": "Injectors",
       "name": "Amfitalicyne",
       "antidepressantLvl": 3,
       "durationTimeSec": 520,
-      "overdose": 0.6,
-      "addBlood": null,
-      "addHealth": null,
-      "addShock": null
+      "overdose": 0.6
     },
     {
       "type": "Injectors",
       "name": "Reanimatal",
       "painkillerLvl": 1,
       "durationTimeSec": 240,
-      "overdose": 1.85,
-      "addBlood": 25,
-      "addHealth": 15,
-      "addShock": -50
+      "overdose": 1.85
     }
     ,
     {

@@ -140,10 +140,10 @@ const TableSection = ({ category, header, data }: Table) => {
             </ColumnHeader>
           </TableGrid>
 
-          {transformedData.map((drug) => {
+          {sortedData.map((drug) => {
             return (
               <TableGrid key={drug.name}>
-                <TableRow name={drug.name} durationTimeSec={drug.durationTimeSec} lvl={drug.lvl} overdose={drug.overdose} />
+                <TableRow name={drug.name} durationTimeSec={drug.durationTimeSec} lvl={drug.lvl} overdose={drug.overdose}/>
               </TableGrid>
             );
           })}
